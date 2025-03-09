@@ -1,7 +1,7 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
 public class Circle implements Shape {
-    public double radius;
+    private double radius;// private болгож мэдээллийг нууцлах
 
     public Circle(double radius) {
         this.radius = radius;
